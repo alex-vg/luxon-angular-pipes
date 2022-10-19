@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "outDir": "../../out-tsc/spec",
-    "types": ["jasmine", "node"]
+    "types": [
+      "jest"
+    ],
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true
   },
   "extends": "../../tsconfig.json",
   "files": [

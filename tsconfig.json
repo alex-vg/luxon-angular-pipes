@@ -15,12 +15,13 @@
     "moduleResolution": "node",
     "outDir": "./dist/out-tsc",
     "paths": {
-      "luxon-angular": [
-        "dist/luxon-angular/luxon-angular",
-        "dist/luxon-angular"
+      "luxon-angular-pipes": [
+        "dist/luxon-angular-pipes/luxon-angular-pipes",
+        "dist/luxon-angular-pipes"
       ]
     },
     "sourceMap": true,
-    "target": "es2015"
+    "target": "es2015",
+    "types": ["jest"]
   }
 }

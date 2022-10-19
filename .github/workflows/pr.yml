@@ -16,4 +16,4 @@ jobs:
     - name: Lint
       run: npm run lint
     - name: Run unit tests
-      run: npm run test -- --browsers=ChromeHeadless --watch=false
+      run: npm run test

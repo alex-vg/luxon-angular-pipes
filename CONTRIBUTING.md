@@ -7,8 +7,8 @@ Any contributions to this project are welcome! Before you open an issue or creat
 Clone the repo and install dependencies:
 
 ```
-$ git clone git@github.com:dstelljes/luxon-angular.git
-$ cd luxon-angular
+$ git clone git@github.com:alex-vg/luxon-angular-pipes.git
+$ cd luxon-angular-pipes
 $ npm install
 ```
 

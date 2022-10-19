@@ -1,4 +1,4 @@
-# luxon-angular
+# luxon-angular-pipes
 
 This is a collection of date/time pipes for Angular (12+) based on [Luxon][luxon].
 
@@ -7,13 +7,13 @@ This is a collection of date/time pipes for Angular (12+) based on [Luxon][luxon
 -   Install (making sure Luxon is installed as well):
 
     ```
-    npm install --save luxon luxon-angular
+    npm install --save luxon luxon-angular-pipes
     ```
 
     or
 
     ```
-    yarn add luxon luxon-angular
+    yarn add luxon luxon-angular-pipes
     ```
 
     If you plan to use the relative formatting pipes, also install the [`relative-time-format`][relative-time-polyfill] polyfill.
@@ -22,7 +22,7 @@ This is a collection of date/time pipes for Angular (12+) based on [Luxon][luxon
 
     ```typescript
     import { NgModule } from '@angular/core';
-    import { LuxonModule } from 'luxon-angular';
+    import { LuxonModule } from 'luxon-angular-pipes';
 
     @NgModule({
       imports: [

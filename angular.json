@@ -3,45 +3,45 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "luxon-angular": {
+    "luxon-angular-pipes": {
       "projectType": "library",
-      "root": "projects/luxon-angular",
-      "sourceRoot": "projects/luxon-angular/src",
+      "root": "projects/luxon-angular-pipes",
+      "sourceRoot": "projects/luxon-angular-pipes/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/luxon-angular/tsconfig.lib.json",
-            "project": "projects/luxon-angular/ng-package.json"
+            "tsConfig": "projects/luxon-angular-pipes/tsconfig.lib.json",
+            "project": "projects/luxon-angular-pipes/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/luxon-angular/tsconfig.lib.prod.json"
+              "tsConfig": "projects/luxon-angular-pipes/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "@angular-builders/jest:run",
           "options": {
-            "main": "projects/luxon-angular/src/test.ts",
-            "tsConfig": "projects/luxon-angular/tsconfig.spec.json",
-            "karmaConfig": "projects/luxon-angular/karma.conf.js"
+            "main": ["src/test.ts"],
+            "tsConfig": "tsconfig.spec.json",
+            "jestConfig": ["jest.conf.js"]
           }
         },
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
             "lintFilePatterns": [
-              "projects/luxon-angular/**/*.ts",
-              "projects/luxon-angular/**/*.html"
+              "projects/luxon-angular-pipes/**/*.ts",
+              "projects/luxon-angular-pipes/**/*.html"
             ]
           }
         }
       }
     }
   },
-  "defaultProject": "luxon-angular",
+  "defaultProject": "luxon-angular-pipes",
   "cli": {
     "defaultCollection": "@angular-eslint/schematics",
     "analytics": false

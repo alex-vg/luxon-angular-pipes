@@ -10,8 +10,8 @@
       ],
       "parserOptions": {
         "project": [
-          "projects/luxon-angular/tsconfig.lib.json",
-          "projects/luxon-angular/tsconfig.spec.json"
+          "projects/luxon-angular-pipes/tsconfig.lib.json",
+          "projects/luxon-angular-pipes/tsconfig.spec.json"
         ],
         "createDefaultProgram": true
       },

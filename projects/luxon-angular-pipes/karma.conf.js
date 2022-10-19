@@ -8,7 +8,7 @@ module.exports = function (config) {
     },
     colors: true,
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, '../../coverage/luxon-angular'),
+      dir: require('path').join(__dirname, '../../coverage/luxon-angular-pipes'),
       fixWebpackSourcePaths: true,
       reports: ['html', 'lcovonly', 'text-summary']
     },

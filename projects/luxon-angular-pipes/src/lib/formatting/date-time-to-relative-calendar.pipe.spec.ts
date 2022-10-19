@@ -29,7 +29,7 @@ describe('DateTimeToRelativeCalendarPipe', () => {
   it('manages change detection', fakeAsync(() => {
     const ref = new MockChangeDetectorRef();
     const pipe = new DateTimeToRelativeCalendarPipe(ref);
-    const spy = spyOn(ref, 'markForCheck');
+    const spy = jest.spyOn(ref, 'markForCheck');
 
     pipe.transform(null);
     tick(1000);

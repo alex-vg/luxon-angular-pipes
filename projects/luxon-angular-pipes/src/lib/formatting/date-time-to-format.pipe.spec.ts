@@ -7,8 +7,8 @@ describe('DateTimeToFormatPipe', () => {
 
   describe('#transform', () => {
     it('transforms an empty input into null', () => {
-      expect(pipe.transform(null, format)).toBeNull();
-      expect(pipe.transform(undefined, format)).toBeNull();
+      expect(pipe.transform(null, format)).toBeUndefined();
+      expect(pipe.transform(undefined, format)).toBeUndefined();
     });
 
     it('transforms a DateTime into an arbitrarily formatted string', () => {

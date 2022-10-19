@@ -1,6 +1,8 @@
 {
-  "name": "luxon-angular",
-  "version": "5.1.0",
+  "name": "luxon-angular-pipes",
+  "license": "MIT",
+  "version": "12.0.0",
+  "main": "dist/index.js",
   "description": "date pipes for Angular",
   "keywords": [
     "luxon",
@@ -10,20 +12,19 @@
     "datetime",
     "immutable"
   ],
-  "homepage": "https://github.com/dstelljes/luxon-angular#readme",
-  "bugs": "https://github.com/dstelljes/luxon-angular/issues",
-  "repository": "github:dstelljes/luxon-angular",
-  "license": "MIT",
+  "homepage": "https://github.com/alex-vg/luxon-angular-pipes#readme",
+  "bugs": "https://github.com/alex-vg/luxon-angular-pipes/issues",
+  "repository": "github:alex-vg/luxon-angular-pipes",
   "contributors": [
     {
       "name": "Dan Stelljes",
       "email": "dan@stellj.es",
       "url": "https://stellj.es"
+    },
+    {
+      "name": "alex-vg"
     }
   ],
-  "dependencies": {
-    "tslib": "^2.0.0"
-  },
   "peerDependencies": {
     "@angular/core": ">=12",
     "luxon": ">=2.0.0 <4"
