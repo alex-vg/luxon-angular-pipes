@@ -1,8 +1,7 @@
 {
   "name": "luxon-angular-pipes",
   "license": "MIT",
-  "version": "12.0.0",
-  "main": "dist/index.js",
+  "version": "12.0.1",
   "description": "date pipes for Angular",
   "keywords": [
     "luxon",
